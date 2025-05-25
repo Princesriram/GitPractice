@@ -12,7 +12,7 @@ public class Runclass {
 	Loginpage login = new Loginpage(web);
 	login.invokebrowser();
 	login.Signin("rahul", "rahulshettyacademy");
-	web.close();
+	web.quit();
 	}
 
 }
